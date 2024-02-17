@@ -1,0 +1,78 @@
+[
+    {
+        "organization_id": "1",
+        "rules": {
+            "filter": [
+                {
+                    "id": 1,
+                    "type": "NotValidDoctorDNI",
+                    "args": {
+                        "dnis": [
+                            "12345678-9"
+                        ]
+                    }
+                },
+                {
+                    "id": 2,
+                    "type": "ValidAppointmentTypePoliclinic",
+                    "args": {
+                        "appointment_status": "CONFIRMED",
+                        "policlinic": "ODONTOLOGY"
+                    }
+                }
+            ],
+            "contact": [
+                {
+                    "id": 3,
+                    "type": "ContactDoctor",
+                    "args": {
+                        "overhead": 1,
+                        "doctor_name": "Juan Perez"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "organization_id": "2",
+        "rules": {
+            "filter": [
+                {
+                    "id": 1,
+                    "type": "NotValidDoctorDNI",
+                    "args": {
+                        "dnis": [
+                            "12345678-9"
+                        ]
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": "ValidAppointmentTypePoliclinic",
+                    "args": {
+                        "appointment_status": "CONFIRMED",
+                        "policlinic": "HOSPITAL"
+                    }
+                }
+            ],
+            "contact": [
+                {
+                    "id": 3,
+                    "type": "ContactDoctor",
+                    "args": {
+                        "overhead": 1,
+                        "doctor_name": "Dr. Fernandez"
+                    }
+                },                  
+                {
+                    "id": 5,
+                    "type": "ContactStatus",
+                    "args": {
+                        "overhead": 3,
+                        "appointment_status": "CONFIRMED"
+                    }
+                }
+            ]
+        }
+    }
+]

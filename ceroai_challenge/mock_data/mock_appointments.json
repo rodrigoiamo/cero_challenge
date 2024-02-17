@@ -1,0 +1,50 @@
+[
+    {
+        "appointment_id": 1,
+        "organization_id": "1",
+        "date": "2024-02-18T08:00:00",
+        "patient_id": "123456789-1",
+        "doctor_name": "Dr. John Doe",
+        "doctor_id": "123456789-1",
+        "specialty": "CARDIOLOGY",
+        "policlinic": "HOSPITAL",
+        "type": "EMERGENCY",
+        "status": "CONFIRMED"
+    },
+    {
+        "appointment_id": 2,
+        "organization_id": "1",
+        "date": "2024-02-18T09:00:00",
+        "patient_id": "123456789-1",
+        "doctor_name": "Dr. John Doe",
+        "doctor_id": "123456789-1",
+        "specialty": "ORTHODONTICS",
+        "policlinic": "ODONTOLOGY",
+        "type": "CONTROL",
+        "status": "CONFIRMED"
+    },
+    {
+        "appointment_id": 3,
+        "organization_id": "2",
+        "date": "2024-02-17T10:00:00",
+        "patient_id": "123456789-1",
+        "doctor_name": "Dr. John Doe",
+        "doctor_id": "123456789-1",
+        "specialty": "ORTHODONTICS",
+        "policlinic": "ODONTOLOGY",
+        "type": "CONTROL",
+        "status": "COMPLETED"
+    },
+    {
+        "appointment_id": 4,
+        "organization_id": "2",
+        "date": "2024-02-17T11:00:00",
+        "patient_id": "123456789-1",
+        "doctor_name": "Dr. Fernandez",
+        "doctor_id": "123456789-1",
+        "specialty": "ORTHODONTICS",
+        "policlinic": "ODONTOLOGY",
+        "type": "CONTROL",
+        "status": "CONFIRMED"
+    }
+]
